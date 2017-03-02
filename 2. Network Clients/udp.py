@@ -23,5 +23,5 @@ while 1:
     buf = s.recv(2048)
     if not len(buf):
         break
-    sys.stdout.write(buf)
+    print buf
     

@@ -1,10 +1,10 @@
 #! /usr/bin/env python
-# UDP Connectionless Example 
+# UDP Connectionless Example 2kjj
 
 import socket, sys, struct, time
 
-hostname = 'time.nist.gov'
-port = 37 
+hostname = sys.argv[1]
+port = int(sys.argv[2])
 
 host = socket.gethostbyname(hostname)
 
